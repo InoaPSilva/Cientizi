@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
       <section>
@@ -31,25 +31,29 @@
                 </nav>
             </header>
 
-            <section >
-                <form action="#" class="text-center">
-                    <input type="search" name="#" placeholder="Search" class="text-alert bg-success w-25 rounded border-0 p-2">
-                    <input type="button" value="Pesquisar" class="btn-secondary rounded border-0 p-2 ml-1">
-                </form>
-
+            <section id="main">
+                <section id="search-tab">
+                    <form action="#" class="justify-content-center form-inline">
+                        <input type="search" name="#" placeholder="Search" class="form-control">
+                        <input type="button" value="Pesquisar" class="btn btn-outline-secondary">
+                    </form>
+                </section>
                 <section>
-                    <section>
-                        <span class="text-dark font-weight-bold ">Mais recentes</span>
-                        <div style="border:1px solid red; padding-bottom: 200px; margin-right: 10px;" class="w-25 "></div>
-                        <div style="border:1px solid red; padding-bottom: 200px; margin-right: 10px;" class="w-25 "></div>
-                        <div style="border:1px solid red; padding-bottom: 200px; margin-right: 10px;" class="w-25 "></div>
+                    <section class="d-inline w-100 m-3">
+                        <span class="d-inline text-dark font-weight-bold">Mais recentes</span>
+                        <section class="w-100 d-inline-block">    
+                            <div style="border:1px solid red; padding-bottom: 200px; margin-right: 10px;" class="w-25 d-inline-block m-3"></div>
+                            <div style="border:1px solid red; padding-bottom: 200px; margin-right: 10px;" class="w-25 d-inline-block m-3"></div>
+                            <div style="border:1px solid red; padding-bottom: 200px; margin-right: 10px;" class="w-25 d-inline-block m-3"></div>
+                        </section>    
                     </section>
-
-                    <section>
-                        <span class="text-dark font-weight-bold">Mais poplares</span>
-                        <div style="border:1px solid red; padding-bottom: 200px; margin-right: 10px;" class="w-25 "></div>
-                        <div style="border:1px solid red; padding-bottom: 200px; margin-right: 10px;" class="w-25 "></div>
-                        <div style="border:1px solid red; padding-bottom: 200px; margin-right: 10px;" class="w-25 "></div>
+                    <section class="d-inline w-100">
+                        <span class="d-inline text-dark font-weight-bold m-3">Mais Populares</span>
+                        <section class="w-100 d-inline-block">    
+                            <div style="border:1px solid red; padding-bottom: 200px; margin-right: 10px;" class="w-25 d-inline-block m-3"></div>
+                            <div style="border:1px solid red; padding-bottom: 200px; margin-right: 10px;" class="w-25 d-inline-block m-3"></div>
+                            <div style="border:1px solid red; padding-bottom: 200px; margin-right: 10px;" class="w-25 d-inline-block m-3"></div>
+                        </section>    
                     </section>
                 </section>
             </section>  
