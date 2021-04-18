@@ -41,7 +41,7 @@
 /*slider*/
 #carouselExampleIndicators{
 	position: relative;
-	height: 100vh;
+	height: 75vh;
 	width: 100%;
 }
 #carouselExampleIndicators .carousel-inner{
