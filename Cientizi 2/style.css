@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   color: black;
+}
+#Main{
+    background-color: #191919;
+}
+#Nav-Bar{
+    background-color: #37C9EF;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+#Nav-Bar a{
+    margin:10px;
+}
+#Search {
+    margin: 0px auto 20px 515px;
+}
+#Search-Field{
+    border: solid;
+    color: #37C9EF;
+    background-color: #37C9EF;
+    border-radius: 20px;
+    padding: 5px 60px;
+    margin-top: 10px;
+}
+.Row{
+    margin: 5px 20px;
+}
+.Row h2{
+    color: white;
+}
+.Blue-Square{
+    margin: 15px;
+    height: 150px;
+    width: 250px;
+    background-color: #37C9EF;
+    display: inline-block;
+    border-radius: 20px;
+}
+
