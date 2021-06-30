@@ -1,7 +1,20 @@
 *{
-    border: 0px;
-    padding: 0px;
+    border: 0;
+    padding: 0;
 }
+
+html{
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, p{
+    color: #fafafa;
+}
+p{
+    font-size: 17px;
+}
+
 
 main{
     display: inline-block;
@@ -15,13 +28,15 @@ main{
 }
 
 #content{    
-    background-color: #E99B20;
+    background-color: #41D282;
     width: 950px;
     float: left;
     margin: 20px 5px;  
+    border-radius: 45px 45px 0 45px;
 }
 
 #photo{
+    border-radius: 45px 0 0 0;
     background-image: url("../img/bees2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,33 +51,57 @@ main{
 
 #objetiveText{
     margin-left: 20px;
+    
+}
+
+#objetiveText h2{
+    text-align: center;
 }
 
 #objectives{
     display: flex;
+    padding: 13px;
+}
+
+#imgDiv img{
+    border-radius: 25px;
+    margin: 10px;
+}
+
+#description{
+    padding: 20px;
 }
 /* -------------------------------------------------- */
 #side-bar{
-    background-color: #E99B20;
-    height: 1030px;
+    background-color: #41D282;
+    height: 1141px;
     float: right;
+    border-radius: 0 45px 45px 0;
     padding: 0px 40px;
     margin-top: 20px;
     margin-left: 20px;
     width: 200px;
-    
 }
+#rewards{
+    margin-top: 50px;
+}
+#rewards p{
+    margin: 30px 0;
+}
+
 #donate {
     text-align: center;
 }
 #donate button{
-    padding: 20px;
+    background-color: #6F5DA4;
+    color: white;
+    padding: 15px 35px;
     margin-top: 20%;
     border-radius: 10px;
     font-size: 15px;
 }
 
 #donate button:hover{
-    background-color: black;
-    color: white;
+    background-color: #209447;
+    transition: 0.45s all ease;
 }
