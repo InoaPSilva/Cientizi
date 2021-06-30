@@ -154,13 +154,13 @@ nav {
 }
 
 .main-message p {
-    text-transform: lowercase;
+    text-transform: none;
 }
 
 .btn {
     background-color: #6937ddbe;
-    border-radius: 2rem;
     color: #fafafa;
+    box-shadow: 0 5px 10px 3px rgba(0, 0, 0, 0.4);
     display: inline-block;
     margin-top: 2rem;
     padding: 1rem 2.5rem;
@@ -170,6 +170,7 @@ nav {
 
 .btn:hover {
     background-color: #209447;
+    box-shadow: 0 5px 10px 3px rgba(0, 0, 0, 0.4);
 }
 
 .box {
@@ -546,6 +547,3 @@ nav {
         margin-bottom: 5px;
     }
 }
-
-
-/* Login and Register */
