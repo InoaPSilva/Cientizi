@@ -220,3 +220,16 @@ a:hover{
 		justify-content: center;
 	}
 }
+
+/* --------------------------------------------------- */
+#workPlease{
+	margin: 0 450px;
+}
+
+.textArea{
+	border-radius: 10px;
+	resize: none;
+}
+.d h5{
+	text-align: start;
+}
