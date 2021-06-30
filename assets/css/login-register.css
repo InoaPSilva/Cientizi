@@ -223,7 +223,17 @@ a:hover{
 
 /* --------------------------------------------------- */
 #workPlease{
-	margin: 0 450px;
+	margin: 80px 450px;
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+}
+
+#workPleaseTwo{
+	background-color: #fff;
+	padding: 20px 40px;
+	margin: auto 0px;
+	border-radius: 25px;
 }
 
 .textArea{
