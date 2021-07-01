@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
+/* ========== Geral ========== */
 body {
     margin: 0;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+/* ========== NavBar ========== */
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -34,6 +36,7 @@ ul.topnav li a:hover:not(.active) {
 }
 
 
+/* ========== MediaQuery ========== */
 @media screen and (max-width: 600px) {
     ul.topnav li.right,
     ul.topnav li {
